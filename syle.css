@@ -1,8 +1,53 @@
-#tittle {
-    color: blueviolet;
-    text-align: center;
+#title {
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
-.fot{
-    border: 1px solid;
+body{
+    background: rgb(58,86,180);
+} 
+
+    .formulario {
+      background-color: white;
+      border-radius: 30px;
+      width: 20vh; 
+      padding: 20px;
+    }
+
+  .entrada{
+    margin: 15px auto;
+  }
+
+  .entrada button{
+    text-align: center;
+  }
+  
+  .entrada input{
+    width: 18vh;
+    height: 5vh;
+    border-radius: 20vh;
+    margin-top: 2vh;
+  }
+  
+  #textboxid
+{
+    font-size: medium;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    height: 40px;
+    line-height: 24px;  
 }
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  top:0;
+  left:0;
+  }
+
+  

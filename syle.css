@@ -1,53 +1,129 @@
-#title {
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-
-body{
-    background: rgb(58,86,180);
-} 
-
-    .formulario {
-      background-color: white;
-      border-radius: 30px;
-      width: 20vh; 
-      padding: 20px;
+    #title {
+        color: rgb(255, 255, 255);
+        text-align: center;
     }
 
-  .entrada{
-    margin: 15px auto;
-  }
 
-  .entrada button{
-    text-align: center;
-  }
-  
-  .entrada input{
-    width: 18vh;
-    height: 5vh;
-    border-radius: 20vh;
-    margin-top: 2vh;
-  }
-  
-  #textboxid
-{
-    font-size: medium;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 8px;
-    height: 40px;
-    line-height: 24px;  
+    body {
+        background: #3a56b4;
+    }
+
+
+    .formulario {
+        background-color: white;
+        border-radius: 30px;
+        height: 80vh;
+        width: 60vh;
+        padding: 20px;
+        min-height: fit-content;
+        min-width: 30vw;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        overflow: auto;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .entrada {
+
+        margin: 15px auto;
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .entrada button {
+        text-align: center;
+    }
+
+    .entrada input {
+        width: 18vh;
+        height: 5vh;
+        border-radius: 20vh;
+        margin-top: 4vh;
+    }
+
+    #textboxid {
+        font-size: medium;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px;
+        height: 50px;
+        line-height: 24px;
+        font-family: "Exo 2", sans-serif;
+        font-size: x-large;
+
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    }
+
+    .send {
+        margin: 2vh;
+        margin-top: 10vh;
+        border-radius: 30px;
+        border: none;
+        background-color: #3a56b4;
+        height: 5vh;
+        width: 10vw;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 150%;
+        min-width: 150px;
+        min-height: 50px;
+    }
+
+    .send:active {
+        background-color: #5674d4;
+        box-shadow: 0 5px #666;
+        transform: translateY(1px);
 }
-.container {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position:fixed;
-  top:0;
-  left:0;
-  }
 
+
+    .exo-2-padrao {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+
+    .alternative {
+        width: 2vw; 
+        height: auto;
+        aspect-ratio: 1/1;
+        border-radius: 100%;
+        background: transparent;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: transparent;
+        cursor: pointer;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .goigle{
+        aspect-ratio: 1/1;
+        min-width: 40px;
+        max-width: 60px;
+
+    }
+
+    .form-title {
+        font-family: "Exo 2", sans-serif;
+    }
+    .different{
+        display: flex;
+        flex-direction: row;
+    }
   

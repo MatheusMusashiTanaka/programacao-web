@@ -20,14 +20,14 @@
         <div class="formulario">
             <div class="form-title"> <h1>Analysis Form</h1> </div>
             <div class="text">Please enter your data so that we can verify<br> your Analysis  </div>
-            <div class="entrada">
-                <input id="textboxid" type="text" placeholder="Name">
+            <div class="entrada" autocomplete="off" >
+                <input  id="Name" class="textboxid" type="text" placeholder="Name" spellcheck="false">
     
-                <input id="textboxid" type="text" placeholder="Age">
+                <input  id="Email" class="textboxid" type="text" placeholder="Email" spellcheck="false" >
     
-                <input id="textboxid" type="text" placeholder="CPF">
+                <input  id="CPF" class="textboxid" type="text" placeholder="CPF" maxlength="14" autocomplete="off">
             </div>
-            <button class="send"> Send </button>
+            <button id="send" class="send"> Send </button>
             <div class="dif-txt">Alternative forms to take survey</div>
             <div class="different">
             <button class="alternative"><img class="goigle" src="https://techdocs.akamai.com/identity-cloud/img/social-login/identity-providers/iconfinder-new-google-favicon-682665.png" alt="buttonpng" /></button>
@@ -39,9 +39,10 @@
 
 
 
-    <script scr="index.js">
+    <script src="index.js">
 
     </script>
 </body>
 
 </html>
+

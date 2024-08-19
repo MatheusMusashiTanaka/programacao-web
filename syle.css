@@ -17,7 +17,7 @@
         border-radius: 30px;
         height: 70vh;
         width: 20vh;
-        padding: 20px;
+        padding: 10px;
         min-height: fit-content;
         min-width: 28vw;
         display: flex;
@@ -42,14 +42,13 @@
     }
 
     .entrada input {
-        width: 18vh;
-        height: 5vh;
+        
         border-radius: 20vh;
         margin-top: 4vh;
     }
 
-    #textboxid {
-        font-size: medium;
+    .textboxid {
+     
         text-align: center;
         width: 100%;
         box-sizing: border-box;
